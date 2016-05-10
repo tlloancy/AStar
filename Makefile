@@ -5,7 +5,7 @@ NAME =	astar
 #LFTFLAGS = -L $(LIBFT_DIR) -lft
 #LPROTOCOLFLAGS = -L $(LIBPROTOCOL_DIR) -lprotocol
 OBJSERV =$(SRCSERV:src/%.cpp=.obj/%.o)
-SRCSERV = 	src/main.cpp
+SRCSERV = 	src/main.cpp src/AStar.cpp
 
 CC		=	clang++
 FLAGS	=	#-Wall -Werror -Wextra -O3
